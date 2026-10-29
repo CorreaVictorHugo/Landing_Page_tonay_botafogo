@@ -13,7 +13,7 @@ Landing page responsiva para apresentar um estacionamento em Botafogo, Rio de Ja
 - Botão flutuante de WhatsApp, menu para celular e seção de dúvidas frequentes.
 - Animação discreta ao rolar a página, respeitando a preferência por movimento reduzido.
 - Layout responsivo feito com HTML, CSS e JavaScript, sem dependências de framework.
-- Favicon próprio com o símbolo do carro sob cobertura.
+- Favicon próprio com o símbolo do carro.
 
 ## Rodar localmente
 
