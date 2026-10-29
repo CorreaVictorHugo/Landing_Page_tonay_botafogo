@@ -1,0 +1,6 @@
+.netlify/
+dist/
+.agents/
+concepts/
+previews/
+ideias-mensalistas.html
