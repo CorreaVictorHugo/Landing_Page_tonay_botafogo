@@ -30,8 +30,14 @@ const whatsappDisplay = '(21) 99947-0811';
 
 Em `whatsappNumber`, use código do país, DDD e número, sem espaços ou símbolos. Se o número mudar novamente, atualize também os links de reserva em `index.html`.
 
+## SEO local
+
+A página inclui título e descrição para buscas locais, URL canônica, dados estruturados `LocalBusiness`, `robots.txt` e `sitemap.xml`. Ao trocar o domínio, atualize as URLs absolutas em `index.html`, `robots.txt` e `sitemap.xml`.
+
+Para acompanhar a indexação, cadastre o site no Google Search Console e envie o sitemap. Para aparecer nas buscas e no Google Maps, o responsável pelo estacionamento deve criar e verificar o Perfil da Empresa no Google com nome, endereço, telefone e horários consistentes com o site.
+
 ## Publicação
 
-O site está hospedado no Netlify. A pasta `dist/` é gerada localmente com `index.html`, `styles.css`, `script.js` e `assets/`, e não faz parte do repositório. Após alterações, atualize esses arquivos em `dist/` e execute `netlify deploy --prod --dir=dist`.
+O site está hospedado no Netlify. A pasta `dist/` é gerada localmente com `index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml` e `assets/`, e não faz parte do repositório. Após alterações, atualize esses arquivos em `dist/` e execute `netlify deploy --prod --dir=dist`.
 
 A fotografia da página é ilustrativa.
