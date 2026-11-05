@@ -1,6 +1,6 @@
-// Troque o número abaixo pelo WhatsApp definitivo, com código do país e DDD.
-const whatsappNumber = '552199999999';
-const whatsappDisplay = '(21) 9999-9999';
+// WhatsApp da Tonay Park, com código do país e DDD.
+const whatsappNumber = '5521999470811';
+const whatsappDisplay = '(21) 99947-0811';
 
 document.querySelectorAll('[data-whatsapp-message]').forEach((link) => {
   const message = link.dataset.whatsappMessage;

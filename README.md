@@ -21,14 +21,14 @@ Abra `index.html` no navegador. Os arquivos de fonte estão em `assets/fonts/` e
 
 ## Configuração
 
-O número do WhatsApp no projeto é **provisório**. Para colocar o número definitivo, altere estas duas linhas no início de `script.js`:
+O número do WhatsApp da Tonay Park está configurado no início de `script.js`:
 
 ```js
-const whatsappNumber = '552199999999';
-const whatsappDisplay = '(21) 9999-9999';
+const whatsappNumber = '5521999470811';
+const whatsappDisplay = '(21) 99947-0811';
 ```
 
-Em `whatsappNumber`, use código do país, DDD e número, sem espaços ou símbolos.
+Em `whatsappNumber`, use código do país, DDD e número, sem espaços ou símbolos. Se o número mudar novamente, atualize também os links de reserva em `index.html`.
 
 ## Publicação
 
