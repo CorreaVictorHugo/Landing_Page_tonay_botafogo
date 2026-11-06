@@ -38,6 +38,6 @@ Para acompanhar a indexação, cadastre o site no Google Search Console e envie 
 
 ## Publicação
 
-O site está hospedado no Netlify. A pasta `dist/` é gerada localmente com `index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml` e `assets/`, e não faz parte do repositório. Após alterações, atualize esses arquivos em `dist/` e execute `netlify deploy --prod --dir=dist`.
+O site está hospedado no Netlify. A pasta `dist/` é gerada localmente com `index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml`, `_headers`, `favicon.ico` e `assets/`, e não faz parte do repositório. Após alterações, atualize esses arquivos em `dist/` e execute `netlify deploy --prod --dir=dist`. O arquivo `_headers` deve estar na raiz de `dist/` para que a Netlify aplique os cabeçalhos de segurança.
 
 A fotografia da página é ilustrativa.
