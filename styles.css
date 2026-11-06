@@ -152,9 +152,9 @@ h1 em, h2 em { font-family: 'Raleway', Arial, Helvetica, sans-serif; font-style:
 .contact-entrance figcaption { display: flex; justify-content: space-between; gap: 16px; margin-top: 16px; color: #c5cdc6; font-size: 11px; line-height: 1.5; letter-spacing: .12em; font-weight: 700; }
 .contact-entrance figcaption strong { color: var(--gold); font-weight: 700; white-space: nowrap; }
 
-.floating-whatsapp { position: fixed; z-index: 50; right: 24px; bottom: calc(24px + env(safe-area-inset-bottom)); width: 60px; min-height: 60px; padding: 0; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; color: #fff; background: #176a3e; box-shadow: 0 12px 30px rgba(4,27,15,.3); transition: background .2s, transform .2s, box-shadow .2s; }
-.floating-whatsapp:hover { background: #115631; transform: translateY(-3px); box-shadow: 0 16px 34px rgba(4,27,15,.36); }
-.floating-whatsapp svg { width: 27px; height: 27px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.floating-whatsapp { position: fixed; z-index: 50; right: 24px; bottom: calc(24px + env(safe-area-inset-bottom)); width: 66px; min-height: 66px; padding: 0; display: inline-flex; align-items: center; justify-content: center; border: 2px solid var(--paper); border-radius: 50%; color: #fff; background: #176a3e; box-shadow: 0 0 0 4px rgba(255,255,255,.1), 0 14px 34px rgba(0,0,0,.4); transition: background .2s, transform .2s, box-shadow .2s; }
+.floating-whatsapp:hover { background: #115631; transform: translateY(-3px); box-shadow: 0 0 0 4px rgba(255,255,255,.16), 0 17px 36px rgba(0,0,0,.44); }
+.floating-whatsapp svg { width: 33px; height: 33px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
 .site-footer { padding-bottom: 78px; color: #fff; background: #171d19; }
 .footer-top { min-height: 232px; display: grid; grid-template-columns: 1fr 1.3fr 1fr; align-items: center; gap: 50px; }
 .footer-address { max-width: 330px; color: #adb6ae; font-size: 14px; line-height: 1.7; font-style: normal; }
