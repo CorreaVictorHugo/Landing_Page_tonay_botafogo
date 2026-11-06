@@ -134,7 +134,7 @@ h1 em, h2 em { font-family: 'Raleway', Arial, Helvetica, sans-serif; font-style:
 .faq-list details p { margin: -5px 55px 25px 0; color: var(--muted); font-size: 15px; line-height: 1.65; }
 
 .contact { padding: 103px 0; color: #fff; background: var(--ink-deep); }
-.contact-grid { display: flex; justify-content: space-between; align-items: end; gap: 60px; }
+.contact-grid { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,.9fr); align-items: center; gap: 80px; }
 .contact .section-kicker { color: var(--gold); }
 .contact h2 { max-width: 710px; }
 .contact p:not(.section-kicker) { max-width: 510px; margin: 24px 0 0; color: #c7cec7; font-size: 15px; line-height: 1.7; }
@@ -144,9 +144,13 @@ h1 em, h2 em { font-family: 'Raleway', Arial, Helvetica, sans-serif; font-style:
 .contact-address small { color: #b9c2ba; font-size: 13px; }
 .contact-address a { min-height: 40px; margin-top: 5px; display: inline-flex; align-items: center; color: var(--gold); font-size: 13px; font-weight: 700; border-bottom: 1px solid currentColor; }
 .contact-address a:hover { color: #f0c995; }
-.contact-action { min-width: 275px; display: flex; flex-direction: column; align-items: center; gap: 16px; padding-bottom: 6px; }
+.contact-action { width: fit-content; min-width: 275px; display: flex; flex-direction: column; align-items: center; gap: 16px; margin-top: 35px; }
 .contact-action .button { width: 100%; }
 .contact-number { color: #c5cdc6; font-size: 13px; letter-spacing: .05em; }
+.contact-entrance { min-width: 0; margin: 0; }
+.contact-entrance img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: center 38%; border: 10px solid var(--paper); }
+.contact-entrance figcaption { display: flex; justify-content: space-between; gap: 16px; margin-top: 16px; color: #c5cdc6; font-size: 11px; line-height: 1.5; letter-spacing: .12em; font-weight: 700; }
+.contact-entrance figcaption strong { color: var(--gold); font-weight: 700; white-space: nowrap; }
 
 .floating-whatsapp { position: fixed; z-index: 50; right: 24px; bottom: calc(24px + env(safe-area-inset-bottom)); width: 60px; min-height: 60px; padding: 0; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; color: #fff; background: #176a3e; box-shadow: 0 12px 30px rgba(4,27,15,.3); transition: background .2s, transform .2s, box-shadow .2s; }
 .floating-whatsapp:hover { background: #115631; transform: translateY(-3px); box-shadow: 0 16px 34px rgba(4,27,15,.36); }
@@ -170,6 +174,7 @@ h1 em, h2 em { font-family: 'Raleway', Arial, Helvetica, sans-serif; font-style:
   .statement-grid > p:last-child { grid-column: 2; max-width: 520px; }
   .monthly-grid { gap: 45px; }
   .faq-grid { gap: 50px; }
+  .contact-grid { gap: 45px; }
 }
 
 @media (max-width: 900px) {
@@ -198,7 +203,7 @@ h1 em, h2 em { font-family: 'Raleway', Arial, Helvetica, sans-serif; font-style:
   .statement-grid > p:last-child { grid-column: auto; }
   .monthly-grid, .faq-grid { grid-template-columns: 1fr; gap: 50px; }
   .monthly-visual { min-height: 430px; }
-  .contact-grid { align-items: start; flex-direction: column; gap: 35px; }
+  .contact-grid { grid-template-columns: 1fr; gap: 46px; }
   .contact-action { align-items: start; }
   .footer-top { grid-template-columns: 1fr 1fr; gap: 20px; padding: 50px 0; }
   .footer-address { grid-column: 1; }
@@ -241,6 +246,7 @@ h1 em, h2 em { font-family: 'Raleway', Arial, Helvetica, sans-serif; font-style:
   .monthly-visual-label { font-size: 11px; }
   .faq-grid { gap: 35px; }.faq-list summary { min-height: 76px; font-size: 14px; }.faq-list details p { font-size: 14px; }
   .contact { padding: 75px 0; }.contact-action, .contact-action .button { width: 100%; }
+  .contact-entrance img { border-width: 7px; }
   .floating-whatsapp { right: 18px; bottom: calc(18px + env(safe-area-inset-bottom)); }
   .footer-top { grid-template-columns: 1fr; gap: 20px; }.footer-address, .footer-links { grid-column: auto; grid-row: auto; }.footer-links { margin-top: 8px; }
   .footer-bottom { align-items: start; flex-direction: column; justify-content: center; padding: 20px 0; line-height: 1.5; }

@@ -14,6 +14,7 @@ Landing page responsiva para apresentar um estacionamento em Botafogo, Rio de Ja
 - Animação discreta ao rolar a página, respeitando a preferência por movimento reduzido.
 - Layout responsivo feito com HTML, CSS e JavaScript, sem dependências de framework.
 - Favicon próprio com o símbolo do carro.
+- Foto real da entrada pela Rua Sorocaba, 305, junto às informações de localização.
 
 ## Rodar localmente
 
@@ -40,4 +41,4 @@ Para acompanhar a indexação, cadastre o site no Google Search Console e envie 
 
 O site está hospedado no Netlify. A pasta `dist/` é gerada localmente com `index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml`, `_headers`, `favicon.ico` e `assets/`, e não faz parte do repositório. Após alterações, atualize esses arquivos em `dist/` e execute `netlify deploy --prod --dir=dist`. O arquivo `_headers` deve estar na raiz de `dist/` para que a Netlify aplique os cabeçalhos de segurança.
 
-A fotografia da página é ilustrativa.
+A fotografia principal de abertura é ilustrativa. A foto na seção de contato mostra a entrada real pela Rua Sorocaba.
